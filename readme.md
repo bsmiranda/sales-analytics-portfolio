@@ -1,68 +1,85 @@
-# **Umbbra RevOps Analytics Project**
+# Umbbra RevOps Analytics Project
 
-A complete data analysis project applying the CRISP-DM methodology to diagnose sales and marketing performance for a fictitious company selling 5 executive training programs.
-This project demonstrates how RevOps + Data Science + Python can generate insights, identify commercial bottlenecks, and support strategic decision-making.
+A Sales Analytics project applying RevOps methodologies and Python to analyze commercial and marketing performance for a fictitious company selling 5 executive training programs.  
+This project demonstrates how Data Science + RevOps can generate actionable insights, identify bottlenecks, and support strategic decision-making.
 
-## **Stage 1 — Business Understanding (CRISP-DM)**
+---
+
+## Stage 1 — Business Understanding (CRISP-DM)
 
 **Context**
 
-Umbbra was hired to analyze the commercial performance of a fictitious company offering 5 executive training programs.
-The company provided 12 months of sales, marketing, and funnel performance data.
+Umbbra was hired to analyze the sales and marketing performance of a company offering 5 executive training programs.  
+The dataset includes 12 months of sales, marketing, and funnel performance data.
 
-The objective is to use Python and RevOps methodologies to:
-- Identify bottlenecks in the funnel (Leads → MQL → SQL → Opportunities → Sales)
-- Evaluate marketing efficiency (CPL, CAC, investment, pricing)
-- Identify top- and low-performing products
-- Analyze seasonality and behavioral trends
-- Build strategic recommendations to optimize revenue operations
+**Objectives**
 
-## **Business Objective**
+- Identify bottlenecks in the sales funnel (Leads → MQL → SQL → Opportunities → Sales)  
+- Evaluate marketing efficiency (CPL, CAC, marketing investment, pricing)  
+- Identify top- and low-performing products  
+- Analyze seasonality and trends  
+- Build strategic recommendations to optimize revenue operations  
 
-Generate insights capable of:
-- Reducing Customer Acquisition Cost (CAC)
-- Increasing conversion across funnel stages
-- Revealing products with the highest growth potential
-- Creating a foundation for Umbbra’s upsell offer (performance marketing management)
+**Success Criteria**
 
-## **Success Criteria**
+The project is considered successful if:  
+- At least three bottlenecks in the commercial funnel are identified  
+- Actionable recommendations are created  
+- Data visualizations clearly communicate findings  
+- The project demonstrates analytical skills in a portfolio-ready format  
 
-The project is successful if:
-- At least three bottlenecks in the commercial funnel are identified
-- Actionable strategic recommendations are created
-- Data visualizations clearly communicate findings
-- A strong consulting pitch can be delivered to the client
+---
 
-## **Project Structure**
+## Project Structure
 
-Umbbra-RevOps/
+Umbbra-Sales-Analytics
 │
 ├── data/
-│   ├── raw/                 # Original CSV data
-│   ├── processed/           # Cleaned and transformed datasets
+│ ├── raw/ # Original CSV data
+│ └── processed/ # Cleaned and transformed datasets
 │
-├── docs/                    # CRISP-DM documentation
-│   ├── 01_business_understanding.md
+├── docs/ # CRISP-DM documentation
+│ └── 01_business_understanding.md
 │
 ├── notebooks/
-│   ├── data_exploration.ipynb
-│   ├── modeling.ipynb
+│ ├── 01_data_exploration.ipynb
+│ └── 02_modeling.ipynb
 │
-└── src/                     # Python source code (functions and modules)
+└── src/ # Python source code (functions and modules)
 
-## **Technologies Used**
-- Python 3.11
-- Pandas
-- Matplotlib
-- Jupyter Notebook
-- VS Code
+---
 
-## **Goals for This Project**
-- Demonstrate analytical thinking applied to RevOps
-- Build a portfolio-ready, professional data project
-- Structure insights like a real analytics consultant
-- Share progress and findings on LinkedIn
+## Technologies Used
 
-## **Next Step**
+- Python 3.11  
+- Pandas  
+- Matplotlib / Seaborn  
+- Jupyter Notebook  
+- VS Code  
 
-**Start Stage 2:** Data Understanding, loading and exploring the dataset to extract initial observations.
+---
+
+## Current Stage
+
+**Data Exploration (EDA)**  
+- Loaded and explored `sales_data.csv`  
+- Analyzed distributions, missing values, and basic statistics  
+- Created first insights on products, revenue, funnel performance, and marketing metrics  
+
+---
+
+## Goals for This Project
+
+- Demonstrate analytical thinking applied to RevOps  
+- Build a portfolio-ready, professional data project  
+- Structure insights like a real analytics consultant  
+- Share project progress and findings on LinkedIn  
+
+---
+
+## Next Steps
+
+- Stage 2 — Data Cleaning and Transformation  
+- Stage 3 — Detailed Funnel & Product Analysis  
+- Stage 4 — Visualizations and Insights for Decision Making  
+- Stage 5 — Final Recommendations & Portfolio Delivery
