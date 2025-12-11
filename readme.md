@@ -32,20 +32,21 @@ The project is considered successful if:
 
 ## Project Structure
 
-Umbbra-Sales-Analytics
+Umbbra-Sales-Analytics/
 │
 ├── data/
-│ ├── raw/ # Original CSV data
-│ └── processed/ # Cleaned and transformed datasets
+│   ├── raw/                 # Original CSV data
+│   └── processed/           # Cleaned and transformed datasets
 │
-├── docs/ # CRISP-DM documentation
-│ └── 01_business_understanding.md
+├── docs/                    # CRISP-DM documentation
+│   └── 01_business_understanding.md
 │
 ├── notebooks/
-│ ├── 01_data_exploration.ipynb
-│ └── 02_modeling.ipynb
+│   ├── 01_data_exploration.ipynb
+│   └── 02_modeling.ipynb
 │
-└── src/ # Python source code (functions and modules)
+└── src/                     # Python source code (functions and modules)
+
 
 ---
 
